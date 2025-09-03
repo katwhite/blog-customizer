@@ -9,13 +9,23 @@ module.exports = {
 		react: {
 			version: 'detect',
 		},
-		"import/resolver": {
+		'import/resolver': {
 			typescript: {
-				project: "tsconfig.json",
-			}
-		}
+				project: 'tsconfig.json',
+			},
+		},
 	},
-	extends: ['plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended', 'prettier', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript', 'plugin:eslint-comments/recommended', 'plugin:storybook/recommended'],
+	extends: [
+		'plugin:@typescript-eslint/recommended',
+		'plugin:prettier/recommended',
+		'prettier',
+		'plugin:react/recommended',
+		'plugin:react-hooks/recommended',
+		'plugin:import/errors',
+		'plugin:import/warnings',
+		'plugin:import/typescript',
+		'plugin:eslint-comments/recommended',
+	],
 	rules: {
 		semi: [2, 'always'],
 		quotes: [2, 'single', { avoidEscape: true }],
