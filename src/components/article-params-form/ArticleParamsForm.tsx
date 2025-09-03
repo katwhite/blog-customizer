@@ -63,7 +63,7 @@ export const ArticleParamsForm = ({
 			<aside
 				ref={rootRef}
 				className={clsx(styles.container, {
-					[styles.container_open]: isOpen
+					[styles.container_open]: isOpen,
 				})}>
 				<form className={styles.form} onSubmit={handleSubmit}>
 					<Select

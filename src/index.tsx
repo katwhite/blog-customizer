@@ -12,8 +12,6 @@ import styles from './styles/index.module.scss';
 const domNode = document.getElementById('root') as HTMLDivElement;
 const root = createRoot(domNode);
 
-//комментарий для проверки коммита
-
 const App = () => {
 	const [articleState, setArticleState] = useState(defaultArticleState);
 
